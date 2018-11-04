@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* --------------- Header ----------------*/
+header {
+    overflow: hidden;
+    padding: 15px 0;
+    background-color: #343a40;
+}
+header .logo {
+    float: left;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.header-link {
+    color: white;
+    font-size: 16px;
+    opacity: 0.5;
+    text-decoration: none;
+    padding: 8px;
+    line-height: 24px;
+}
+.header-right {
+    float: right;
+}
+.active {
+    opacity: 1;
+}
+.header-link:hover {
+    opacity: 1;
+}
+.header-wrap {
+    width: 80%;
+    height: 24px;
+    display: block;
+    margin: 0 auto;
+}
+/* --------------- Main block ----------------*/
+.main {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 36px;
+    align-items: flex-start;
+}
+.main-content > p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    margin: 14px 0;
+}
+img {
+    border-radius: 4px;
+    height: 335px;
+}
+h1 {
+    font-size: 36px;
+    font-weight: 400;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 14px 24px;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+section {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+/* --------------- CTA ----------------*/
+.cta {
+    background-color: #6b757e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 60px;
+    width: 80%;
+    border-radius: 4px;
+}
+.cta-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+/* --------------- Card ----------------*/
+.card {
+    width: 360px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-content {
+    padding: 20px 20px 20px 20px;
+}
+.card-content > p {
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+}
+.button-bg {
+    background-color: #f8f8f8;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid lightgrey;
+}
+.button-bg > button {
+    padding: 6px 10px;
+    border: 0px;
+    margin-left: 20px;
+}
+h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+.card-wrap {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.card-section {
+    display: flex;
+    justify-content: center;
+}
+/* --------------- Footer ----------------*/
+footer {
+    background-color: #343a40;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
